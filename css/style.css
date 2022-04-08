@@ -23,9 +23,9 @@ html {
   background-color: var(--blue);
 }
 .contenedor {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+  max-width: 1800px;
+  width: 98%;
+ 
 }
 @media (min-width: 768px) {
   .barra {
@@ -35,16 +35,17 @@ html {
   }
 }
 .navegacion a {
-  margin: 95px;
+  margin: 50px;
+  margin-top: 25px;
   display: inline;
   text-align: center;
-  margin-right: 2rem;
+  margin-right: 1rem;
   color: var(--blanco);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
 }
-a :hover {
+.navegacion :hover {
   color: #00f890;
 }
 .barra img {
@@ -53,6 +54,12 @@ a :hover {
   margin: 0px auto;
 }
 @media (min-width: 768px) {
+  .contenedor{
+    max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  }
   .navegacion a {
     margin: 10px;
     display: inline;
@@ -78,4 +85,115 @@ a :hover {
 }
 .texto-header .profile {
   float: left;
+  
+}
+.no-margin{
+  font-size: 15px;
+  margin-top: 30px;
+  color: var(--blanco);
+}
+.font-weight{
+  font-size: 15px;
+  color: var(--blanco);
+  opacity: 70%;
+  margin-top: 25px;
+}
+strong{
+  font-weight: 900;
+  color: var(--greeen);
+}
+@media (min-width: 768px) {
+  .font-weight {
+    font-size: 25px;
+    
+  }
+  .no-margin{
+    font-size: 25px;
+  }
+}
+/* Botones */
+.round {
+   background-image:url(../img/git\ 2.png);
+   background-repeat:no-repeat;
+   height: 35px;
+   width: 85px;
+   background-position:center;
+   background-repeat:no-repeat;
+   background-position:center;
+   float: left;
+   margin-top: 25px;
+   height: 46.24px;
+   background-color: rgba(29, 220, 8, 0.795); 
+   opacity: 80%;
+   border: 3px solid var(--greeen); 
+   border-radius: 1em;
+   margin-left: 27px; 
+} 
+.round2{
+  height: 40px;
+  width: 130px;
+  margin-top: 25px;
+  margin-left: 25px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  margin-left: 0px;
+  color: #fff;
+  background-color: var(--greeen);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px var(--blanco);
+}
+.round2:hover {background-color: var(--greeen)}
+
+.round2:active {
+  background-color: var(--greeen);
+  box-shadow: 0 5px var(--blanco);
+  transform: translateY(4px);
+}
+.git{
+  margin-bottom: 10px;
+  width: 80px;
+  position: sticky;
+}
+.cv{
+  position: sticky;
+  
+  width: 70px;
+
+}
+@media (min-width: 768px) {
+  .round2 {
+    font-size: 25px;
+    height: 60px;
+    width: 150px;
+    margin-left: 20px;
+    
+    
+  }
+  .cv{
+    position: absolute;
+    width: 80px;
+    margin-bottom: 250px;
+    
+  }
+  .git{
+    width:120px;
+    margin: 0 auto;
+  }
+  
+}
+
+.border{
+  margin-top: 500px;
+  border:5px solid var(--blanco);
+    width:100%;
+}
+.pie{
+  color: var(--blanco);
+  font-size: 25px;
 }
